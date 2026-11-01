@@ -18,7 +18,7 @@ jobs:
     uses: bioconductor/workflows/.github/workflows/bioccheck.yml@main
     with:
       enable_pkgdown: true
-      error_on: warning
+      rcmdcheck_error_on: warning
     permissions:
       pages: write
       id-token: write
